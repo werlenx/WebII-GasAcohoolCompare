@@ -1,0 +1,22 @@
+.form_control{
+    color: rgba(204, 246, 246, 0.888);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+
+}
+.form_control_label{    
+    margin-bottom: .6em;
+    font-weight: bold;
+}
+.form_control_input{
+    padding: .7em;
+    border-radius: 0;
+    border: none;
+    color: blue;
+}
+.form_control_input::placeholder{
+    color: #e4dddd;
+}
