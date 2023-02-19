@@ -12,9 +12,9 @@ export default function Home() {
 
   const [n1, setN1] = useState('')
   const [n2, setN2] = useState('')
-  const [sun, setSun] = useState('')
+  const [sun, setSun] = useState(0)
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>): void => {
     event.preventDefault();
     const resultado = Number(n1) / Number(n2);
     setSun(resultado);

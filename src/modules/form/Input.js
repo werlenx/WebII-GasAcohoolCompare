@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './form.module.css'
 
-export default function Input({event, text, num, setNum, type, placeholder}) {
+export default function Input({text, num, setNum, type, placeholder}) {
   return (
     <div className={styles.form_control}>
 
