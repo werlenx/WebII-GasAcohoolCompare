@@ -31,7 +31,7 @@ export default function Home() {
 
       
       <div className={styles.card_login}>
-        <h1>Você sabe comqual combustivel compensa mais abastecer seu carro?</h1>
+        <h1>Você sabe com qual combustivel compensa mais abastecer seu carro?</h1>
         <h2>Utiliza a calculadora abaixo</h2>
         <br />
         <br />
