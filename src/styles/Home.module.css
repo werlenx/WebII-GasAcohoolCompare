@@ -278,7 +278,8 @@
 }
 .card_login{
   width: 80%;
-  height: 35em;
+  /*height: 35em;*/
+  height: 100%;
   padding-top: 1em;
   margin: 60px auto 0px auto;
   border-radius: 30px;
@@ -315,4 +316,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+@media (max-width: 700px) {
+  .card_login{
+    width: 100vw;
+    border-radius: 0%;
+    padding-top: 1em;
+    margin: 60px auto 0px auto;
+    background-color: #c496ecf5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .CardCalc{
+    position: relative;
+    padding-top: 2em;
+    background-color: #5a1497c0;
+    width: 100%;
+    height: 25em;
+    border-radius: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
